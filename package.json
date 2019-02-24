@@ -1,0 +1,32 @@
+{
+	"name": "vistra-dashboard-beta",
+	"version": "1.0.0",
+	"description": "Dashboard concept showing various data-points for multiple Independent System Operators (ISO)",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CourtneyDM/vistra-dashboard-beta.git"
+	},
+	"keywords": [
+		"Luminant",
+		"Vistra",
+		"dashboard",
+		"Independent System Operator",
+		"ISO",
+		"fleet"
+	],
+	"author": "Courtney D. Montgomery",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/CourtneyDM/vistra-dashboard-beta/issues"
+	},
+	"homepage": "https://github.com/CourtneyDM/vistra-dashboard-beta#readme",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^4.16.4",
+		"mongoose": "^5.4.15"
+	}
+}
