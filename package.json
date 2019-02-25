@@ -4,7 +4,8 @@
 	"description": "Dashboard concept showing various data-points for multiple Independent System Operators (ISO)",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "cd server/node index.js"
 	},
 	"repository": {
 		"type": "git",
