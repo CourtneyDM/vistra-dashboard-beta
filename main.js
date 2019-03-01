@@ -4,21 +4,33 @@ document.addEventListener("DOMContentLoaded", () => {
 			type: "bar"
 		},
 		title: {
-			text: "My Test Chart"
+			text: "Fuel"
 		},
 		xAxis: {
 			title: {
-				text: "Fruit eaten"
+				text: "Fuel Type"
 			}
 		},
 		series: [
 			{
-				name: "Courtney",
-				data: [1, 0, 9]
+				name: "Coal",
+				data: [38671]
 			},
 			{
-				name: "Senia",
-				data: [5, 7, 3]
+				name: "Natural Gas",
+				data: [21876]
+			},
+			{
+				name: "Nuclear",
+				data: [21876]
+			},
+			{
+				name: "Wind",
+				data: [1536]
+			},
+			{
+				name: "Other",
+				data: [1508]
 			}
 		]
 	});
